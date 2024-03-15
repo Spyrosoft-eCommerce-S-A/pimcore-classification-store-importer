@@ -30,7 +30,7 @@ class ClassificationstoreBundle extends AbstractPimcoreBundle
     /**
      * @return string
      */
-    public function getNiceName()
+    public function getNiceName(): string
     {
         return 'Classificationstore Tools';
     }
@@ -38,7 +38,7 @@ class ClassificationstoreBundle extends AbstractPimcoreBundle
     /**
      * @return string
      */
-    public function getDescription()
+    public function getDescription(): string
     {
         return
             'Pimcore5 bundle that provides import and export for classification store structure and other facilities.';
@@ -47,7 +47,7 @@ class ClassificationstoreBundle extends AbstractPimcoreBundle
     /**
      * @return array
      */
-    public function getJsPaths()
+    public function getJsPaths(): array
     {
         return [];
     }
@@ -55,7 +55,7 @@ class ClassificationstoreBundle extends AbstractPimcoreBundle
     /**
      * @return array
      */
-    public function getCssPaths()
+    public function getCssPaths(): array
     {
         return [];
     }
