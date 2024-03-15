@@ -76,7 +76,7 @@ class GroupRepository
         $list->setCondition('keyId = ? AND groupId = ?', [$keyId, $groupId]);
         $list->load();
         if (count($list->getList()) > 0) {
-            $relation = reset($list->getList());
+            $relation = $list->getList()[0];
             if ($relation instanceof KeyGroupRelation && $relation->getSorter() !== $sorter) {
                 $relation->setSorter($sorter);
                 $relation->save();
