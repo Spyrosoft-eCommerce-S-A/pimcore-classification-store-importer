@@ -1,6 +1,6 @@
 # classificationstore
 
-Pimcore5 bundle that provides import and export for classification store structure and other facilities.
+Pimcore11 bundle that provides import and export for classification store structure and other facilities.
 
 **Table of Contents**
 
@@ -13,7 +13,6 @@ Pimcore5 bundle that provides import and export for classification store structu
 	- [Contributing](#contributing)
     - [Licensing](#licensing)
     - [Standards & Code Quality](#standards-code-quality)
-    - [About Authors](#about-authors)
 
 ## Compatibility
 Release 1.0.0 - Pimcore 5.4.0 up to Pimcore 6.9
@@ -81,9 +80,6 @@ Export file has the same form as import file described above.
 ## Release 1.0.0 Notes
 Adds the information about 'sorter' to export file. This allows to have keys sorted within a group.
 
-## Contributing
-This is an internal Divante project.
-
 ## Licensing
 The code in this project is licensed under the GPLv3 license.
 
@@ -91,6 +87,4 @@ The code in this project is licensed under the GPLv3 license.
 This module respects all Pimcore5 code quality rules and our own PHPCS and PHPMD rulesets.
 
 ## About Authors
-![Divante-logo](https://www.divante.com/hubfs/raw_assets/public/Divante_March_2021/images/logo-new.svg "Divante")
-
-Visit our website [Divante.com](https://divante.com/ "Divante.com") for more information.
+forked from DivanteLtd/pimcore-classification-store-importer
